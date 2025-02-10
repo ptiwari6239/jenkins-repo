@@ -6,8 +6,6 @@ pipeline {
                 echo 'Hello, World!'
                sh '''
             #!/bin/bash
-           
-            cd jenkins-repo
             chmod +x script.sh
             echo "in bash"
             
