@@ -7,7 +7,7 @@ pipeline {
                sh '''
             #!/bin/bash
             chmod +x script.sh
-            echo "in bash"
+            sh script.sh
             
          '''
           }
