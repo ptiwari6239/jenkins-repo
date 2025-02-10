@@ -1,7 +1,7 @@
 pipeline {
-    agent any #1
+    agent any 
     stages {
-        stage('Build') { #2
+        stage('Build') { 
             steps {
                 echo "hello from build from github" 
             }
