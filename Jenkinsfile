@@ -7,10 +7,6 @@ pipeline {
                 sh ' bash script.sh'
             }
         }
-      
-
-        
+         
     }
-
-    
 }
